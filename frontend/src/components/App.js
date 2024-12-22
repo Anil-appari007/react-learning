@@ -1,6 +1,6 @@
 import react,{Fragment, useState} from "react";
 import "../css/App.css"
-function HelloWorld2(props){
+function App(props){
     const [isTrue, setIsTrue] = useState(false)
     const toggleTrue = () =>{
         if (isTrue){
@@ -24,4 +24,4 @@ function HelloWorld2(props){
     )
 }
 
-export default HelloWorld2
+export default App
